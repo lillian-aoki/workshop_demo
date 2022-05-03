@@ -1,0 +1,42 @@
+---
+title: "Untitled"
+output: 
+  github_document:
+    toc: true
+    toc_depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# The main  header
+## The secondary header
+
+`some text formatted as code` The mean speed of the cars dataset is `r mean(cars$speed)` `r 22/7`
+
+```{r pressure, fig.height=10, fig.width=5, fig.cap="A figure caption"}
+plot(pressure)
+knitr::include_graphics("rmarkdown_logo.png")
+```
+
+![image caption](https://raw.githubusercontent.com/lillian-aoki/workshop_website/master/docs/assets/rmarkdown_logo.png)
+
+knitr::include_graphics("path/to/image/file")
+
+*Some text here*
+
+**A header here**
+
+```{r }
+knitr::kable(cars)
+```
+
+<font size = "1">
+This text should be really small
+</font>
+
+<font size="20">
+This text should be really big
+</font>
+
+
