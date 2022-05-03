@@ -1,30 +1,24 @@
 ---
-title: "Untitled"
-author: "LRA"
-date: "5/3/2022"
-output: github_document
+title: "My CV"
+output:
+  github_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+### *Jobs*
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+1. Awesome Job with many cool projects
+2. Excellent Job with one very long project
+3. Some other Job
 
-```{r cars}
-summary(cars)
-```
+---
 
-## Including Plots
+### Other cool things about me
 
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+1. I study seagrass
+2. Cool fact 2
+3. Another cool fact
